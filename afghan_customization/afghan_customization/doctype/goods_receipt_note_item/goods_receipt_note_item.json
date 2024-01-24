@@ -1,0 +1,105 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-27 11:17:52.228638",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "column_break_ymytq",
+  "arrival_date",
+  "description",
+  "section_break_ppktd",
+  "qty_received",
+  "unit_cost",
+  "extended_cost",
+  "column_break_wbmyj",
+  "uom",
+  "section_break_gbtzi",
+  "reference",
+  "po_number"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "column_break_ymytq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "arrival_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Arrival Date"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Small Text",
+   "label": "Description"
+  },
+  {
+   "fieldname": "section_break_ppktd",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "qty_received",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Qty Received"
+  },
+  {
+   "fieldname": "unit_cost",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Unit Cost"
+  },
+  {
+   "fieldname": "extended_cost",
+   "fieldtype": "Currency",
+   "label": "Extended Cost"
+  },
+  {
+   "fieldname": "column_break_wbmyj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "uom",
+   "fieldtype": "Link",
+   "label": "UOM",
+   "options": "UOM"
+  },
+  {
+   "fieldname": "section_break_gbtzi",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference"
+  },
+  {
+   "fieldname": "po_number",
+   "fieldtype": "Link",
+   "label": "PO Number",
+   "options": "Purchase Order"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-27 11:26:56.997216",
+ "modified_by": "Administrator",
+ "module": "Afghan Customization",
+ "name": "Goods Receipt Note Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

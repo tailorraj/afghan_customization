@@ -1,0 +1,93 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-31 16:07:42.430881",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "initial_tag_no",
+  "purchase_receipt",
+  "column_break_7o1le",
+  "initiator",
+  "supplier",
+  "column_break_8kbrb",
+  "total_qty",
+  "section_break_v78y3",
+  "asset_item"
+ ],
+ "fields": [
+  {
+   "fieldname": "initial_tag_no",
+   "fieldtype": "Select",
+   "label": "Initial Tag No",
+   "options": "P\nM"
+  },
+  {
+   "fieldname": "column_break_7o1le",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "total_qty",
+   "fieldtype": "Int",
+   "label": "Total Qty"
+  },
+  {
+   "fieldname": "section_break_v78y3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "allow_bulk_edit": 1,
+   "fieldname": "asset_item",
+   "fieldtype": "Table",
+   "label": "Asset Item",
+   "options": "Asset Tag Table"
+  },
+  {
+   "fieldname": "initiator",
+   "fieldtype": "Data",
+   "label": "Initiator"
+  },
+  {
+   "fieldname": "column_break_8kbrb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "purchase_receipt",
+   "fieldtype": "Link",
+   "label": "Purchase Receipt",
+   "options": "Purchase Receipt"
+  },
+  {
+   "fetch_from": "purchase_receipt.supplier",
+   "fieldname": "supplier",
+   "fieldtype": "Link",
+   "label": "Supplier",
+   "options": "Supplier"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-08-01 16:05:31.675305",
+ "modified_by": "Administrator",
+ "module": "Afghan Customization",
+ "name": "Asset Creation Tool",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

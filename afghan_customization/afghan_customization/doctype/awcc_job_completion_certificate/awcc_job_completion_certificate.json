@@ -1,0 +1,162 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "JCC-.#####",
+ "creation": "2023-09-22 09:30:24.767305",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "po_number",
+  "supplier_name",
+  "supplier_address",
+  "supplier_address_display",
+  "column_break_3pxtm",
+  "site_id",
+  "work_inspected_by",
+  "job_completion_date",
+  "section_break_zyxpw",
+  "item_table",
+  "remarks",
+  "approval_section_section",
+  "hod_approval",
+  "column_break_pba5",
+  "assign"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_320i",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "AWCC Job Completion Certificate",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "po_number",
+   "fieldtype": "Link",
+   "label": "PO Number",
+   "options": "Purchase Order"
+  },
+  {
+   "fieldname": "supplier_name",
+   "fieldtype": "Link",
+   "label": "Supplier Name",
+   "options": "Supplier"
+  },
+  {
+   "fieldname": "supplier_address",
+   "fieldtype": "Link",
+   "label": "Supplier Address",
+   "options": "Address"
+  },
+  {
+   "fieldname": "supplier_address_display",
+   "fieldtype": "Small Text",
+   "label": "Supplier Address Display",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_3pxtm",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "site_id",
+   "fieldtype": "Link",
+   "label": "Site ID",
+   "options": "Location"
+  },
+  {
+   "fieldname": "work_inspected_by",
+   "fieldtype": "Link",
+   "label": "Work Inspected By ",
+   "options": "User"
+  },
+  {
+   "fieldname": "job_completion_date",
+   "fieldtype": "Date",
+   "label": "Job Completion Date"
+  },
+  {
+   "fieldname": "section_break_zyxpw",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "AWCC Job Completion Certificate",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "item_table",
+   "fieldtype": "Table",
+   "label": "Item Table",
+   "options": "AWCC Job Completion Certificate Item"
+  },
+  {
+   "fieldname": "remarks",
+   "fieldtype": "Text Editor",
+   "label": "Remarks"
+  },
+  {
+   "fieldname": "approval_section_section",
+   "fieldtype": "Section Break",
+   "label": "Approval Section"
+  },
+  {
+   "fieldname": "hod_approval",
+   "fieldtype": "Link",
+   "label": "HOD Approval",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_klezt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "assign",
+   "fieldtype": "Button",
+   "label": "Assign"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-25 09:53:38.399986",
+ "modified_by": "Administrator",
+ "module": "Afghan Customization",
+ "name": "AWCC Job Completion Certificate",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

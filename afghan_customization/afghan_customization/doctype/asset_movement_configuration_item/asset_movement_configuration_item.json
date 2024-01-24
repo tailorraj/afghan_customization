@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-09-20 11:10:57.468282",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item",
+  "make",
+  "model",
+  "capacity",
+  "column_break_gvisb",
+  "asset",
+  "asset_tag",
+  "from_location",
+  "target_location"
+ ],
+ "fields": [
+  {
+   "fieldname": "item",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item",
+   "options": "Item"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Make",
+   "options": "Make"
+  },
+  {
+   "fieldname": "model",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Model"
+  },
+  {
+   "fieldname": "capacity",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Capacity"
+  },
+  {
+   "fieldname": "column_break_gvisb",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "asset",
+   "fieldtype": "Link",
+   "label": "Asset",
+   "options": "Asset"
+  },
+  {
+   "fieldname": "asset_tag",
+   "fieldtype": "Link",
+   "label": "Asset Tag",
+   "options": "Asset Tag"
+  },
+  {
+   "fieldname": "from_location",
+   "fieldtype": "Link",
+   "label": "From Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "target_location",
+   "fieldtype": "Link",
+   "label": "Target Location",
+   "options": "Location"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-09-20 15:02:57.973756",
+ "modified_by": "Administrator",
+ "module": "Afghan Customization",
+ "name": "Asset Movement Configuration Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

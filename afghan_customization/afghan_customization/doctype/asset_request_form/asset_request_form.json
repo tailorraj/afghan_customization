@@ -1,0 +1,166 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "ARF-.#####",
+ "creation": "2023-09-01 11:11:04.160373",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "date",
+  "requested_by",
+  "column_break_aig9r",
+  "purpose",
+  "location",
+  "section_break_jt8gl",
+  "item_request",
+  "section_break_wikeo",
+  "hod",
+  "column_break_ktgtc",
+  "assign",
+  "section_break_o9ciy",
+  "approved_by",
+  "column_break_ludkq",
+  "approved_date",
+  "section_break_ymvoy",
+  "receiver_comment",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "default": "Today",
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date",
+   "read_only": 1
+  },
+  {
+   "fieldname": "requested_by",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Requested By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_aig9r",
+   "fieldtype": "Column Break"
+  },
+  {
+   "default": "Asset Request",
+   "fieldname": "purpose",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Purpose",
+   "options": "Asset Request",
+   "read_only": 1
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Location",
+   "options": "Location"
+  },
+  {
+   "fieldname": "section_break_jt8gl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "item_request",
+   "fieldtype": "Table",
+   "label": "Item Request",
+   "options": "AWCC Request Item"
+  },
+  {
+   "fieldname": "section_break_wikeo",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "hod",
+   "fieldtype": "Link",
+   "label": "HOD",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_ktgtc",
+   "fieldtype": "Column Break"
+  },
+  {
+   "depends_on": "eval:doc.docstatus == 0",
+   "fieldname": "assign",
+   "fieldtype": "Button",
+   "label": "Assign"
+  },
+  {
+   "fieldname": "section_break_o9ciy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "approved_by",
+   "fieldtype": "Link",
+   "label": "Approved By",
+   "options": "User"
+  },
+  {
+   "fieldname": "column_break_ludkq",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "approved_date",
+   "fieldtype": "Date",
+   "label": "Approved Date"
+  },
+  {
+   "fieldname": "section_break_ymvoy",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "receiver_comment",
+   "fieldtype": "Small Text",
+   "label": "Receiver Comment"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Asset Request Form",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-09-27 12:29:33.291330",
+ "modified_by": "Administrator",
+ "module": "Afghan Customization",
+ "name": "Asset Request Form",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "select": 1,
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

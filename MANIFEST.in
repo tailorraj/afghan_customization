@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include afghan_customization *.css
+recursive-include afghan_customization *.csv
+recursive-include afghan_customization *.html
+recursive-include afghan_customization *.ico
+recursive-include afghan_customization *.js
+recursive-include afghan_customization *.json
+recursive-include afghan_customization *.md
+recursive-include afghan_customization *.png
+recursive-include afghan_customization *.py
+recursive-include afghan_customization *.svg
+recursive-include afghan_customization *.txt
+recursive-exclude afghan_customization *.pyc
